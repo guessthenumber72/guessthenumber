@@ -9,10 +9,6 @@ function guessNumber() {
 
     Attempts++ + Guess;
 
-    console.log(Guess);
-
-    console.log(Attempts);
-
     document.getElementById("Attempts").textContent = `Attempts: ${Attempts}`
     if (Guess > SecretNumber) {
         document.getElementById("Answer").textContent = "Too high!";
